@@ -1,0 +1,138 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header {
+    background-image: url('bheel1_origin_thumbnail.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #030303;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: #444;
+    padding: 8px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.product {
+    display: flex;
+    margin-bottom: 20px;
+}
+.product img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.product-details {
+    flex: 1;
+}
+.product-name {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.product-price {
+    font-weight: 600;
+    color: #f90;
+    font-size: 16px;
+}
+.checkout-form {
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="submit"] {
+    background-color: #f90;
+    color: #fff;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #f60;
+}
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+   
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+    
+
+
+
+
+ p{
+    list-style-type: none;
+    min-width: 250px;
+    margin-bottom: 20px;
+    flex-basis: 12%;
+   text-align: center;
+   list-style-type: none;
+    
+}
+ p img{
+    width: 20px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+
+}
